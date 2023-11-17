@@ -20,7 +20,7 @@ function Navbar() {
     <nav className={nav ? "nav active" : "nav"}>
       <Link to="main" className="logo" style={{ display: "inline-flex" }}>
         <img src={logo} alt="" />
-        <h4 id="logoName">Comapany Name</h4>
+        <h4 id="logoName">WaTT charge</h4>
       </Link>
       <input className="menu-btn" type="checkbox" id="menu-btn" />
       <label className="menu-icon" for="menu-btn">
